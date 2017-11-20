@@ -5,5 +5,7 @@ class Pokemon
   def save
   end
 
+  def find
+  end
 
 end
