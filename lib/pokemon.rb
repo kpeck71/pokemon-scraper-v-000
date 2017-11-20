@@ -4,7 +4,7 @@ class Pokemon
   def initialize(catch_em_all)
     @name = catch_em_all[:pk_name]
     @type = catch_em_all[:pk_type]
-    @db = catch_em_all[:pk_name]
+    @db = catch_em_all[:db]
   end
 
   def self.save(pk_name, pk_type, db)
