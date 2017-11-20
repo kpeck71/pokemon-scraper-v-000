@@ -1,5 +1,5 @@
 class Pokemon
-  attr_accessor :name, :type, :db
+  # attr_accessor :name, :type, :db
 
   def initialize(catch_em_all)
     @name = catch_em_all[:pk_name]
