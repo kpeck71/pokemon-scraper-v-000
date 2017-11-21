@@ -24,7 +24,7 @@ class Pokemon
     self.all.detect{|p| p.id == id.to_i }
   end
 
-  def alter_hp(new_hp)
+  def alter_hp(new_hp,db)
     self.hp = new_hp
   end
 end
