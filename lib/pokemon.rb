@@ -4,7 +4,7 @@ class Pokemon
   @@all = []
 
   def initialize(:id, :name, :type, :db, :hp)
-    @id, @name, @type, @db, @hp = id, name, type, db, 60
+    @id, @name, @type, @db, @hp = id, name, type, db, hp
 
 
     # @id = catch_em_all[:id]
