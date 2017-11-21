@@ -8,7 +8,7 @@ class Pokemon
     @name = catch_em_all[:name]
     @type = catch_em_all[:type]
     @db = catch_em_all[:db]
-    @hp = 60
+    @hp = 60 || hp
     @@all << self
   end
 
