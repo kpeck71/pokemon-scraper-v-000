@@ -2,10 +2,10 @@ class Pokemon
   attr_accessor :name, :type, :db, :id #this can't be right
 
   def initialize(catch_em_all)
-    @id = id
-    @name = catch_em_all[:pk_name]
-    @type = catch_em_all[:pk_type]
-    @db = catch_em_all[:db]
+    @id = catch_em_all[id]
+    @name = catch_em_all[pk_name]
+    @type = catch_em_all[pk_type]
+    @db = catch_em_all[db]
     @hp = 60
   end
 
