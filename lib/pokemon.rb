@@ -1,5 +1,5 @@
 class Pokemon
-  attr_accessor :id, :name, :type, :db, :hp  #this can't be right
+  attr_accessor :id, :name, :type, :db, :hp
 
   @@all = []
 
