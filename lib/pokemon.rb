@@ -1,5 +1,5 @@
 class Pokemon
-  attr_accessor :id, :pk_name, :pk_type, :db  #this can't be right
+  attr_accessor :id, :pk_name, :pk_type, :db, :hp  #this can't be right
 
   def initialize(pokemon)
     @id = pokemon[id]
