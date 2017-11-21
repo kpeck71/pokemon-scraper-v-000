@@ -11,10 +11,6 @@ class Pokemon
     @hp = nil
   end
 
-  # def initialize(id:, name:, type:, db:, hp:nil)
-  #   @id, @name, @type, @db, @hp = id, name, type, db, hp
-  # end
-
   def self.save(name, type, db)
     db.execute("INSERT INTO pokemon (name, type) VALUES (?, ?)", name, type)
   end
