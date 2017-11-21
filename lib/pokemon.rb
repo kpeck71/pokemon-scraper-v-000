@@ -8,7 +8,6 @@ class Pokemon
     @name = catch_em_all["name"]
     @type = catch_em_all["type"]
     @db = catch_em_all["db"]
-    @hp = hp
   end
 
   def self.save(name, type, db)
