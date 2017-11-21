@@ -6,13 +6,6 @@ class Pokemon
   def initialize(id:nil, name:nil, type:nil, db:nil, hp:nil)
     @id, @name, @type, @db, @hp = id, name, type, db, hp
 
-
-    # @id = catch_em_all[:id]
-    # @name = catch_em_all[:name]
-    # @type = catch_em_all[:type]
-    # @db = catch_em_all[:db]
-    # @hp = 60 || hp
-    # @@all << self
   end
 
   def self.all
