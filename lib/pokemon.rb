@@ -20,8 +20,8 @@ class Pokemon
     db.execute("INSERT INTO pokemon (name, type) VALUES (?, ?)", name, type)
   end
 
-  def find
-    @@all.detect{|pokemon| }
+  def find(id)
+    @@all.detect{|p| p.id == id.to_i }
   end
 
 end
