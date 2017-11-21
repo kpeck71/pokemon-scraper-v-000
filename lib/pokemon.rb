@@ -6,7 +6,7 @@ class Pokemon
   def initialize(catch_em_all)
     @id = catch_em_all["id"]
     @name = catch_em_all["name"]
-    @type catch_em_all["type"]
+    @type = catch_em_all["type"]
     @db = catch_em_all["db"]
     @hp = nil
   end
