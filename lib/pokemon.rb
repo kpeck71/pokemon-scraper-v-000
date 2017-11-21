@@ -2,10 +2,10 @@ class Pokemon
   attr_accessor :id, :pk_name, :pk_type, :db, :hp  #this can't be right
 
   def initialize(pokemon)
-    @id = pokemon[id]
-    @name = pokemon[pk_name]
-    @type = pokemon[pk_type]
-    @db = pokemon[db]
+    @id = pokemon[:id]
+    @name = pokemon[:pk_name]
+    @type = pokemon[:pk_type]
+    @db = pokemon[:db]
     @hp = 60
   end
 
