@@ -9,6 +9,7 @@ class Pokemon
     @type = catch_em_all[:type]
     @db = catch_em_all[:db]
     @hp = 60
+    @@all << self
   end
 
   def self.all
