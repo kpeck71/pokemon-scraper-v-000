@@ -12,7 +12,7 @@ class Pokemon
   end
 
   def self.find(id,db)
-    self.detect{|p| p.id == id.to_i }
+    @@all.detect{|p| p.id == id.to_i }
   end
 
   def alter_hp(new_hp, db)
