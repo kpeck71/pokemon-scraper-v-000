@@ -21,7 +21,7 @@ class Pokemon
   end
 
   def self.find(id)
-    @@all.detect{|p| p.id == id.to_i }
+    self.all.detect{|p| p.id == id.to_i }
   end
 
 end
