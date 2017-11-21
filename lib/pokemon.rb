@@ -21,7 +21,7 @@ class Pokemon
   end
 
   def find
-
+    @@all.detect{|pokemon| }
   end
 
 end
