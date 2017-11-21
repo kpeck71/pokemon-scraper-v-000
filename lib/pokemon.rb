@@ -4,12 +4,15 @@ class Pokemon
   @@all = []
 
   def initialize(:id, :name, :type, :db, :hp)
-    @id = catch_em_all[:id]
-    @name = catch_em_all[:name]
-    @type = catch_em_all[:type]
-    @db = catch_em_all[:db]
-    @hp = 60 || hp
-    @@all << self
+    @id, @name, @type, @db, @hp = id, name, type, db, 60
+
+
+    # @id = catch_em_all[:id]
+    # @name = catch_em_all[:name]
+    # @type = catch_em_all[:type]
+    # @db = catch_em_all[:db]
+    # @hp = 60 || hp
+    # @@all << self
   end
 
   def self.all
